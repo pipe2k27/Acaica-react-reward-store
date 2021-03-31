@@ -1,0 +1,22 @@
+.button{
+    background-color: #cfcfcf;
+    color: #222222;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    width: 230px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-white{
+    background-color: white;
+}
+
+.button:hover{
+background-color:#3a3a3a ;
+color: white;
+}

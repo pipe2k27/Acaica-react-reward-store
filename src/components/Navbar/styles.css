@@ -1,0 +1,24 @@
+.navbar{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 10px 10px 37px -13px rgba(0,0,0,0.28);
+}
+.navbar-logo{
+    height: 40px;
+}
+
+.navbar-coins{
+    background-color: rgb(122, 122, 122);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 19px;
+    margin-left: 12px;
+}

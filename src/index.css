@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
+  background-color: #f2f2f2;
 }
 
 code {
@@ -28,6 +29,11 @@ code {
   transform: translateY(-50%);
 }
 
+
+.coin{
+  height: 20px;
+  margin-left: 5px;
+}
 /* flex */
 
 .flex {
@@ -78,16 +84,16 @@ h3 {
   font-size: 1.8rem;
 }
 
-.golden-text {
+.golden {
   color: #ddc080;
 }
 
-.white-text {
+.white {
   color: white;
 }
 
-.grey-text {
-  color: #707070;
+.grey {
+  color: #7a7a7a;
 }
 
 .text-box {
@@ -192,11 +198,6 @@ h3 {
 
 /* others  */
 
-.title-icon {
-  color: #777cff;
-  font-size: 1.6rem;
-  margin-left: 10px;
-}
 
 .absolute {
   position: absolute;

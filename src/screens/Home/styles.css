@@ -1,0 +1,10 @@
+.main-products{
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    row-gap: 30px;
+    margin: 60px 0;
+}
