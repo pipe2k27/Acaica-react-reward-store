@@ -1,4 +1,5 @@
 import React from 'react';
+import Thousand from '../ThousandSeparator';
 import './styles.css';
 
 const Navbar = ({ name, coins }) => {
@@ -12,7 +13,7 @@ const Navbar = ({ name, coins }) => {
       <div className="flex-center-vertical">
         <p className="grey">{name}</p>
         <div className="flex-center-vertical navbar-coins">
-          {coins}
+          {coins && <Thousand num={coins} />}
           <img
             src={`${process.env.PUBLIC_URL}/assets/coin.png`}
             className="coin"
