@@ -8,7 +8,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1;
     box-shadow: 10px 10px 37px -13px rgba(0,0,0,0.28);
 }
 .navbar-logo{
@@ -21,4 +21,92 @@
     padding: 5px 10px;
     border-radius: 19px;
     margin-left: 12px;
+}
+
+
+.navbar-plus{
+    background-color: rgb(92, 218, 75);
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+.navbar-plus:hover{
+    top: -3px;
+}
+
+.plus-false{
+    transform: rotate(0deg);
+}
+
+.plus-true{
+    transform: rotate(45deg);
+    background-color: red;
+}
+
+.navbar-loader{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-adder{
+    position: fixed;
+    right: 0;
+    z-index: 2;
+    top: 60px;
+}
+
+.adder{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+    height: 50px;
+    padding: 0 30px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 10px 22px 37px -13px rgba(0,0,0,0.28);
+    transition: all 0.3s ease-in-out;
+}
+
+.adder-false{
+    opacity: 0;
+}
+
+.adder-true{
+    opacity: 1;
+}
+
+.adder-false .adder-button{
+    display: none;
+}
+
+.adder-button{
+    background-color: rgb(122, 122, 122);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 19px;
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.adder-button:hover{
+    background-color: rgb(248, 113, 113);
+    color: white;
+    padding: 7px 10px;
 }

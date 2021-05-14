@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { createStore, applyMiddleware } from 'redux';
-import { connect, Provider } from 'react-redux';
+import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import reducer from './reducers/reducer';
 import Home from './screens/Home';

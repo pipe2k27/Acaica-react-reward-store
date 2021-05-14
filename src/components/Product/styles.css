@@ -1,14 +1,14 @@
 .product{
     width: 276px;
     background-color: white;
-    height: 276px;
+    height: 316px;
     border-radius: 4px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
     padding: 5px 20px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 0.1fr 2fr 1fr;
     position: relative;
 }
 
@@ -51,6 +51,8 @@
    opacity: 1;
 }
 
+
+
 .product-hover p{
 position: relative;
 font-size: 1.2rem;
@@ -80,4 +82,36 @@ color: white;
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+}
+
+.product-buy{
+    color: rgb(255, 255, 255);
+    /* position: absolute; */
+    z-index: 2;
+    background-color: rgb(105, 255, 92);
+}
+
+.product-difference{
+    color: rgb(255, 232, 232);
+    /* position: absolute; */
+    z-index: 2;
+    background-color: rgb(255, 73, 73);
+}
+
+.condition{
+    padding: 2px 10px;
+    border-radius: 15px;
+    width: fit-content;
+    margin-top: 10px;
+    height: 24px;
+    font-size: 0.67rem;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+
+.product:hover .condition{
+ opacity: 0.2;
 }

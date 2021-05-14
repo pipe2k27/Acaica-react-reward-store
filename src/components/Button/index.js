@@ -1,11 +1,11 @@
 import React from 'react';
 import './styles.css';
-const Button = ({ onClick, width, color, label, className }) => {
+const Button = ({ onClick, width, color, label, className, style }) => {
   return (
     <div
       onClick={onClick}
       className={`${className} button button-${color}`}
-      style={{ width: width }}
+      style={{ ...style, width: width }}
     >
       {label}
     </div>

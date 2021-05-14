@@ -8,3 +8,21 @@
     row-gap: 30px;
     margin: 60px 0;
 }
+
+.sort-button{
+    background-color: grey;
+    padding: 5px 12px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.sort-button:hover{
+    background-color: rgb(36, 11, 105);
+    transform: scale(1.04);
+}
+
+.home{
+    min-height: 1000px;
+}
